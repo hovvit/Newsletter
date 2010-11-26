@@ -1,10 +1,10 @@
 <?php
 
 // Get most recent publication
- $user="user";
- $host="localhost";
+ $user="";
+ $host="";
  $password="";
- $dbname="friendpaper";
+ $dbname="";
 
  $cxn = mysql_connect($host,$user,$password)
      	  or die ("Couldn't connect to server");
